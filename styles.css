@@ -1,0 +1,33 @@
+.car-item {
+    height: 500px;
+    
+
+}
+
+.car-img {
+    height: 100%;
+    object-fit: contain;
+    filter: brightness(1);
+}
+
+.topCar {
+    height: 400px;
+}
+
+.topCar-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.car-indi {
+    background-color: skyblue;
+    color: black;
+}
+
+.captions{
+    
+    
+    background-color: gray;
+    opacity: 0.5;
+    color: white;
+}
