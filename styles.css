@@ -21,27 +21,24 @@ html {
     40% {transform: translateY(-20px) translateX(-50%);}
     60% {transform: translateY(-10px) translateX(-50%);}
   }
-.capTop
- { 
+  .capTop {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 20vh; /* Relative to viewport height */
     color: hsla(0, 0%, 100%, 0.848);
-    font-size: 100px;
+    font-size: clamp(2rem, 8vw, 100px); /* Scales between 2rem and 100px */
     font-weight: bold;
     font-family: monospace;
-    letter-spacing: 7px;
+    letter-spacing: 0.5vw; /* Relative to viewport width */
     cursor: pointer;
     text-transform: uppercase;
-    background: linear-gradient( to right, hsla(0, 0%, 100%, 0.848) 0, hsl(183, 100%, 49%, 0.606) 10%, hsl(0, 0%, 100%, 0.848) 20%);
-
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.848) 0, hsl(183, 100%, 49%, 0.606) 10%, hsl(0, 0%, 100%, 0.848) 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: wave 3s infinite linear;
-    padding:220px;
-
+    padding: 10vw; /* Relative padding */
 }
 .topCapExtra {
     display: flex;
