@@ -37,7 +37,7 @@ html {
     background: linear-gradient(to right, hsla(0, 0%, 100%, 0.848) 0, hsl(183, 100%, 49%, 0.606) 10%, hsl(0, 0%, 100%, 0.848) 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: wave 3s infinite linear;
+    animation: wave 8s infinite linear;
     padding: 10vw; /* Relative padding */
 }
 .topCapExtra {
