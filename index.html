@@ -60,9 +60,9 @@
 
 
       <div class="card mb-3 pt-3 pb-1">
-        <div class="row g-0 h-00px">
+        <div class="row g-0 align-items-center">
           <div class="col-md-4">
-            <img src="Intro Pic.jpg" class="img-fluid rounded-start " alt="Camps Bay view">
+            <img src="Intro Pic.jpg" class="img-fluid rounded-start w-100" alt="Camps Bay view">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -84,27 +84,33 @@
             <!-- adding cards fro the two apppartments -->
 
               <div class="row p-3 mt-3">
-                <div class="col">
+                <div class="col-md-6 mb-4 mb-md-0">
                     <!-- card 1 -->
-                    <div class="card" style="width: 30rem;">
+                    <div class="card h-100" >
                         <img src="Flat1/Pat2.avif" class="card-img-top" alt="Pool and ocean view">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                           <h5 class="card-title">Modern Camps Bay Apartment with pools</h5>
                           <p class="card-text">Modern 2 Bedroom apartment containing 2 King size beds, 2 full bathrooms, a beautifull Garden filled with pools. only 15 minute walk to the beach </p>
+                          
+                          <div>
                           <a href="#AptOne" class="btn btn-primary">See Gallery</a>
                           <button type="button" class="btn btn-info " onclick="document.location='https://www.airbnb.co.za/rooms/1058706318029451328?viralityEntryPoint=1&s=76&locale=en&_set_bev_on_new_domain=1742311046_EAYjVmNTUzNmFmOD&source_impression_id=p3_1742899424_P3wImKdP4KvlnJvo&check_in=2025-04-11&guests=2&adults=2&check_out=2025-04-14'">See Availability</button>
+                          </div>
                         </div>
                       </div>
                 </div>
-                <div class="col">
+                <div class="col-md-6">
                       <!-- card 2 -->
-                    <div class="card" style="width: 30rem;">
+                    <div class="card h-100">
                         <img src="Flat2/Patio 2.jpeg" class="card-img-top" alt="Private Terrace">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                           <h5 class="card-title">Beachy, bright and airy home with private terrace</h5>
                           <p class="card-text"> This Bright home has 2 bed rooms containing 1 King size bed and 2 single beds, 2 full bathrooms, and a private roomy terrace to experience Cape Town's breathtaking sunsets.</p>
+                          
+                          <div>
                           <a href="#AptTwo" class="btn btn-primary">See Gallery</a>
                           <button type="button" class="btn btn-info " onclick="document.location='https://www.airbnb.co.za/rooms/22409954?viralityEntryPoint=1&s=76&locale=en&_set_bev_on_new_domain=1742311046_EAYjVmNTUzNmFmOD&source_impression_id=p3_1742899444_P381xhye6OAL6Gsj'">See availability</button>
+                          </div>
                         </div>
                       </div>
                 </div>
@@ -143,6 +149,7 @@
           <button type="button" data-bs-target="#AptOne-carousel" data-bs-slide-to="12" aria-label="Slide 13"></button>
           <button type="button" data-bs-target="#AptOne-carousel" data-bs-slide-to="13" aria-label="Slide 14"></button>
           <button type="button" data-bs-target="#AptOne-carousel" data-bs-slide-to="14" aria-label="Slide 15"></button>
+          <button type="button" data-bs-target="#AptOne-carousel" data-bs-slide-to="15" aria-label="Slide 16"></button>
         </div>
       <!-- indicators end -->
 
@@ -164,13 +171,19 @@
             <div class="carousel-item car-item">
               <img src="Flat1/Dinning.avif" class="d-block w-100 car-img" alt="Dining area">
               <div class="carousel-caption captions">
-                  <h5>Dining Room</h5>         
+                  <h5>Dining area</h5>         
                 </div>
             </div>
             <div class="carousel-item car-item">
               <img src="Flat1/dinning2.avif" class="d-block w-100 car-img" alt="Dining area">
               <div class="carousel-caption captions">
-                  <h5>Dining Room</h5>     
+                  <h5>Dining area</h5>     
+                </div>
+            </div>
+            <div class="carousel-item car-item">
+              <img src="Flat1/Bed1.avif" class="d-block w-100 car-img" alt="Bedroom 1">
+              <div class="carousel-caption captions">
+                  <h5>Bedroom 1</h5>             
                 </div>
             </div>
             <div class="carousel-item car-item">
@@ -195,19 +208,19 @@
             <div class="carousel-item car-item">
               <img src="Flat1/Yard1.avif" class="d-block w-100 car-img" alt="Garden view 1">
               <div class="carousel-caption captions">
-                  <h5>Garden</h5>         
+                  <h5>Pool area</h5>         
                 </div>
             </div>
             <div class="carousel-item car-item">
               <img src="Flat1/Yard2.avif" class="d-block w-100 car-img" alt="Garden view 2">
               <div class="carousel-caption captions">
-                  <h5>Garden</h5>         
+                  <h5>Pool area</h5>         
                 </div>
             </div>
             <div class="carousel-item car-item">
               <img src="Flat1/Yard3.avif" class="d-block w-100 car-img" alt="Garden view 3">
               <div class="carousel-caption captions">
-                  <h5>Garden</h5>         
+                  <h5>Garden and Pool area</h5>         
                 </div>
             </div>
             <div class="carousel-item car-item">
