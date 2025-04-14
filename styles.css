@@ -26,25 +26,48 @@ html {
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 20vh; /* Relative to viewport height */
     color: hsla(0, 0%, 100%, 0.848);
-    font-size: clamp(2rem, 8vw, 100px); /* Scales between 2rem and 100px */
+    font-size: clamp(2rem, 8vw, 100px);
     font-weight: bold;
     font-family: monospace;
-    letter-spacing: 0.5vw; /* Relative to viewport width */
+    letter-spacing: 0.5vw;
     cursor: pointer;
     text-transform: uppercase;
     background: linear-gradient(to right, hsla(0, 0%, 100%, 0.848) 0, hsl(183, 100%, 49%, 0.606) 10%, hsl(0, 0%, 100%, 0.848) 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: wave 3s infinite linear;
-    padding: 10vw; /* Relative padding */
+    animation: wave 8s infinite linear;
+    margin: 0;
 }
+
+.capSub {
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-top: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.848) 0, hsl(183, 100%, 49%, 0.606) 10%, hsl(0, 0%, 100%, 0.848) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: wave 9s infinite linear;
+    margin: 0;
+}
+
 .topCapExtra {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
+}
+
+.caption-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes wave
