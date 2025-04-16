@@ -67,6 +67,11 @@ html {
 }
 
 .caption-container {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +98,7 @@ html {
 }
 
 .topCar {
-    height: 800px;
+    height: auto;
     
 }
 
